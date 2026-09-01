@@ -55,6 +55,8 @@ return { -- Autoformat
             typescriptreact = { "prettierd", "prettier", stop_after_first = true },
             scss = { "prettierd", "prettier", stop_after_first = true },
             json = { "prettierd", "prettier", stop_after_first = true },
+            yaml = { "prettierd", "prettier", stop_after_first = true },
+            yml = { "prettierd", "prettier", stop_after_first = true },
         },
     },
 }

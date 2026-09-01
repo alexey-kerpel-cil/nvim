@@ -5,8 +5,12 @@ vim.keymap.set("n", "<leader>tq", "<cmd>tabclose<CR>", { desc = "[T]ab [q]uit" }
 
 vim.keymap.set({ "n", "v" }, "op", '"0p', { desc = "Paste from clipboard" })
 -- vim.keymap.set({ "x", "n", "s" }, ":W", "<cmd>w<cr><esc>", { desc = "Save file" })
+
+-- theme switching keymaps
 vim.keymap.set("n", "<leader>td", "<cmd>set bg=dark<CR>", { desc = "[T]heme [D]ark" })
 vim.keymap.set("n", "<leader>tl", "<cmd>set bg=light<CR>", { desc = "[T]heme [L]ight" })
+
+-- move selected lines up and down in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "which_key_ignore" })
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "which_key_ignore" })
 
