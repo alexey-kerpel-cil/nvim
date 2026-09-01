@@ -9,6 +9,13 @@ end, {})
 
 return {
     "NeogitOrg/neogit",
+    cmd = { "Neogit", "DiffviewOpen", "DiffviewClose", "DiffviewFileHistoryCurrent" },
+    keys = {
+        { "<leader>n", desc = "[N]eogit" },
+        { "<leader>do", desc = "[D]iff [O]pen" },
+        { "<leader>dc", desc = "[D]iff [C]lose" },
+        { "<leader>df", desc = "[D]iff [F]iles" },
+    },
     dependencies = {
         -- "nvim-lua/plenary.nvim", -- required
         "sindrets/diffview.nvim", -- optional - Diff integration

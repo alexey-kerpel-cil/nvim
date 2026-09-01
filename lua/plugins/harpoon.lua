@@ -1,6 +1,14 @@
 return {
     "ThePrimeagen/harpoon",
     branch = "harpoon2",
+    keys = {
+        "<leader>h",
+        "<leader>H",
+        "<leader>1",
+        "<leader>2",
+        "<leader>3",
+        "<leader>4",
+    },
     opts = {
         menu = {
             width = vim.api.nvim_win_get_width(0) - 4,
